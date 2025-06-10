@@ -18,8 +18,8 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --wishon-font: 'Poppins';
-  --wishon-font-two: 'Poppins', serif;
+  --wishon-font: 'Poppins', sans-serif;
+  --wishon-font-two: 'Poppins', sans-serif;
   --wishon-white: #ffffff;
   --wishon-white-rgb: 255, 255, 255;
   --wishon-base: #AF1621;
@@ -2488,6 +2488,7 @@ ul {
 .main-slider__btn-one {
   background-color: var(--wishon-base);
   margin-left: 10px;
+  padding: 10px 30px;
 }
 
 .main-slider__btn-one:after, .main-slider__btn-one:hover {
@@ -2499,6 +2500,7 @@ ul {
 .main-slider__btn-two {
   background-color: #5A622C;
   margin-left: 10px;
+  padding: 10px 30px;
 }
 
 .main-slider__btn-two:after, .main-slider__btn-two:hover {
@@ -4962,7 +4964,7 @@ ul {
 
 .blog-one__date span {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 20px;
   color: var(--wishon-white);
   font-family: var(--wishon-font-two);
@@ -4970,7 +4972,7 @@ ul {
 
 .blog-one__date p {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 12px;
   color: var(--wishon-white);
   font-family: var(--wishon-font-two);
@@ -11511,7 +11513,7 @@ ul {
 
 .logo-img {
     height: 120px;
-    width: auto;
+    width: 200px;
     object-fit: contain;
 }
 
